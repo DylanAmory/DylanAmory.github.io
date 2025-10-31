@@ -7,10 +7,6 @@ h1 {
   font-family: fantasy;
 }
 
-#container {
-  margin: 5rem;
-}
-
 #button-clicker {
   background-color: aquamarine;
   border: none;
@@ -49,4 +45,32 @@ h1 {
   border-radius: 25%;
   font-size: 3rem;
   font-weight: bold;
+}
+
+#main {
+    height: 100vh;
+}
+#container {
+  height: 50vh;
+  width: 50vw;
+  margin: auto;
+  text-align: center;
+  border: 1px solid;
+  background-color: antiquewhite;
+  border-radius: 500px;
+  .flex{
+    color: rgb(255, 142, 3);
+  }
+  .catchphrase{
+    font-style: italic;
+  }
+  button {
+    width: 150px;
+    height: 35px;
+    font-size: 0.8em;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+  }
 }
